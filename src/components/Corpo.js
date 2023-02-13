@@ -24,7 +24,16 @@ export default function Main() {
                 has: true,
                 image: "assets/img/gato-telefone.svg",
                 alt: "gato-telefone",
-                view: 233454
+                view: 233454,
+                like: {
+                    button: false,
+                    type: "heart-outline"
+                },
+                bookmark: {
+                    button: false,
+                    type: "bookmark-outline"
+                }
+
             }
         },
         {
@@ -35,7 +44,15 @@ export default function Main() {
                 has: true,
                 image: "assets/img/dog.svg",
                 alt: "dog",
-                view: 102392
+                view: 102392,
+                like: {
+                    button: false,
+                    type: "heart-outline"
+                },
+                bookmark: {
+                    button: false,
+                    type: "bookmark-outline"
+                }
             }
         },
         {
